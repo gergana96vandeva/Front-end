@@ -1,0 +1,29 @@
+@media screen and (max-width:600px){
+	
+	.wrapper{
+		width: 100%;
+	}
+	#header{
+		width: 100%;
+	}
+	.chat{
+		width: 100%;
+	}
+	.part-one{
+		width: 100%;
+		padding: 0;
+	}
+	.part-two{
+		width: 100%;
+		padding: 0;
+	}
+	.text-div{
+		float: none;
+	}
+	.text-div-2{
+		float: none;
+	}
+	.text-div-3{
+		float: none;
+	}
+}
