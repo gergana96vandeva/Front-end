@@ -1,0 +1,506 @@
+@media (max-width: 1600px) {
+	.carousel-control-next {
+		right: 0;
+	}
+	.carousel-control-prev {
+		left: 0;
+	}
+	.carousel-indicators li {
+		width: 15px;
+		height: 15px;
+	}
+
+	.img-fish {
+		top: 37%;
+	}
+
+	#holder {
+		width: 100%;
+		height: auto;
+	}
+
+	.nav-item.nav-link.nv-btn, .nav-item.nav-link.nv-btn2 {
+		font-weight: 700;
+
+	}
+	.box-three {
+		height: 606px;
+	}
+}
+
+@media (max-width: 1400px) 
+{
+	#container {
+		width: 90%;
+		height: auto;
+	}
+
+
+	.order {
+		font-size: 45px;
+	}
+
+	.menu {
+		font-size: 25px;
+	}
+	.discount {
+		font-size: 50px;
+	}
+
+	.order-now {
+		width: 45%;
+		font-size: 24px;
+		height: auto;
+		padding: 10px;
+	}
+
+	.box-one, .section-two, .carousel, .carousel-inner {
+		height: 400px;
+	}
+
+	.contacts {
+		right: 6%;
+	}
+	body .nav-item.nav-link {
+		font-size: 11px;
+		font-weight: 700;
+
+	}
+	
+
+	.footer1 .footer2 {
+		margin-top: 0;
+	}
+
+	.gb {
+		margin-top: -15px;
+	}
+
+
+}
+
+
+@media (max-width: 1270px) {
+	.navbar-nav {
+		margin-left: 80px;
+	}
+
+	.nav-item.nav-link.nv-btn, .nav-item.nav-link.nv-btn2 {
+		margin-left: 5px;
+	}
+
+	.about-img {
+		width: 140px;
+		height: 120px;
+		transition: all 1s;
+	}
+
+	.order {
+		font-size: 35px;
+	}
+
+	.menu {
+		font-size: 22px;
+	}
+
+	.discount {
+		font-size: 45px;
+	}
+
+	.order-now {
+		font-size: 18px;
+	}
+
+	.box-one, .section-two, .carousel, .carousel-inner {
+		height: 350px;
+	}
+
+	.meals, .meals-img, .drinks, .drinks-img {
+		width: 450px;
+	}
+	
+}
+
+@media (max-width: 1170px) {
+	body .nav-item.nav-link {
+		font-size: 9px;
+	}
+
+	.nav-item.nav-link.nv-btn, .nav-item.nav-link.nv-btn2 {
+		margin-left: 0;
+		width: 140px;
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 1070px) {
+	.box-one, .section-two, .carousel, .carousel-inner {
+		height: 300px;
+	}
+
+	.carousel-indicators li {
+		width: 10px;
+		height: 10px;
+	}
+
+	.box-four {
+		height: auto;
+	}
+
+	.section-three, .section-four, .section-five, .section-six {
+		display: none;
+	}
+
+	#container {
+		width: 100%;
+		position: unset;
+	}
+	.box-one {
+		background-image: linear-gradient(-90deg, #d30611, #6b0c01);
+	}
+	.box-three {
+		background-image: url('../images/background-food.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+
+	}
+	.box-two {
+		background-color: #5f1000;
+	}
+
+	.box-four {
+		background-color: #5f1000;
+	}
+
+	.box-five {
+		background-color: #251207;
+	}
+	.order-now {
+		width: 100%;
+	}
+
+	
+	#container nav {
+		display: none;
+	}
+
+	.navigation  nav{
+		display: block;
+	}
+
+}
+
+@media (max-width: 999px) {
+	.section-two, .carousel, .carousel-inner {
+		height: 200px;
+	}
+	.nav-item.nav-link.nv-btn, .nav-item.nav-link.nv-btn2 {
+		border: 1px solid #9f7528;
+	}
+
+	body .nav-item.nav-link {
+		font-size: 14px;
+	}
+
+	.arrow {
+		font-size: 30px;
+	}
+
+	.center .par {
+		margin-top: -2px;
+	}
+
+	.like-us {
+		width: 50%;
+	}
+}
+
+@media (max-width: 930px) {
+	.box-two {
+		height: 150px;
+	}
+
+	.meals, .meals-img, .drinks, .drinks-img {
+		width: 300px;
+	}
+
+	.center p {
+		font-size: 20px;
+		margin-left: 15px;
+		margin-top: 5px;
+	}
+
+	.par {
+		margin-top: -26px;
+	}
+
+	.about-img {
+		width: 100px;
+		height: 100px;
+	}
+	.inner-content {
+		width: 260px;
+	}
+
+	.like-us span {
+		color: black;
+		font-weight: bold;
+	}
+
+	.box-two {
+		height: auto;
+		flex-direction: column;
+	}
+	.meals, .meals-img, .drinks, .drinks-img {
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 700px) {
+	.order-now {
+		font-size: 14px;
+		width: 100%;
+	}
+
+	.section-two, .carousel, .carousel-inner {
+		height: 120px;
+	}
+
+	.about-text {
+		height: 360px;
+	}
+
+	h1 {
+		font-size: 26px;
+	}
+
+	.about-text p {
+		font-size: 12px;
+	}
+
+	.about-img {
+		width: 60px;
+		height: 60px;
+	}
+
+	.box-three {
+		height: 470px;
+	}
+
+	.box-four {
+		flex-direction: column;
+	}
+
+	.column-one {
+		width: 100%;
+	}
+	.column-two {
+		
+		width: 100%;
+		justify-content: center;
+	}
+
+	.contacts {
+		right: 0;
+	}
+
+	.txt-phone a {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 500px) {
+	.about-text {
+		height: 300px;
+	}
+	.about-text p {
+		font-size: 9px;
+	}
+
+	.order {
+		font-size: 25px;
+	}
+
+	.menu {
+		font-size: 15px;
+	}
+	.discount {
+		font-size: 35px;
+	}
+	.img-fish {
+		display: none;
+	}
+
+	.pictures-line {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.logo {
+  width: 20%;
+    height: auto;
+    transform: none;
+    left: 0;
+    top: 20px;
+}
+
+.logo img {
+  width: 150px;
+}
+}
+
+@media (max-width: 400px)
+
+{
+	.about-text p {
+		display: none;
+	}
+	.about-text .visible {
+		display: block;
+		margin: 0;
+	}
+
+	.txt-contacts {
+		font-size: 8px;
+	}
+
+	.txt-phone a {
+		font-size: 8px;
+	}
+
+	.section-two, .carousel, .carousel-inner {
+		height: 80px;
+	}
+}
+
+@media (max-width: 300px)
+{
+
+	.center {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.center p {
+    font-size: 12px;
+    margin:0;
+    margin-top: -2px;
+}
+
+.center img {
+    width: 50%;
+}
+
+.inner-content {
+    width: 180px;
+}
+
+.footer, .footer2 {
+	font-size: 10px;
+}
+
+
+	.about-img {
+		width: 40px;
+		height: 50px;
+	}
+
+  .contacts {
+    position: relative;
+  }
+
+  .logo {
+    position: relative;
+    width: auto;
+  }
+
+  .section-one {
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo img {
+    width: 110px;
+}
+
+body .nav-item.nav-link {
+    font-size: 11px;
+}
+.golden {
+	font-size: 9px;
+}
+h1 {
+    font-size: 20px;
+}
+}
+
+@media (max-width: 230px) {
+	.order-now {
+    font-size: 10px;
+}
+
+.inner-content {
+    width: 100%;
+}
+
+
+ .txt a {
+      font-size: 10px;
+    }
+
+    .txt {
+      font-size: 11px;
+    }
+
+    .inner-p {
+      font-size: 12px;
+    }
+
+    .inner-content a img {
+      width: 62%;
+    }
+
+
+.navbar-nav {
+    margin-left: 0;
+}
+
+.nav-item.nav-link.nv-btn, .nav-item.nav-link.nv-btn2 {
+  width: 111px;
+}
+
+.txt-phone a {
+    font-size: 8px;
+}
+
+.txt-contacts {
+    font-size: 8px;
+}
+
+.order {
+    font-size: 20px;
+}
+
+.order-now {
+    font-size: 8px;
+}
+
+h1 {
+	font-size: 14px;
+}
+
+.section-two, .carousel, .carousel-inner {
+    height: 60px;
+}
+
+.carousel-item img {
+	height: 60px;
+}
+}
