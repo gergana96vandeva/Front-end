@@ -1,0 +1,304 @@
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,700&subset=cyrillic,cyrillic-ext');
+
+#header{
+	background-color: #b6a7d3;
+	width: 100%;
+	height: auto;
+	float: left;
+
+}
+.row{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.girl{
+	width: 100px;
+	height: 100px;
+}
+.boy{
+	width: 80px;
+	height: 80px;
+}
+.girl2{
+	width: 60px;
+	height: 60px;
+}
+.col-md-4{
+	
+	float: left;
+}
+.col-sm-3{
+	
+	float: left;
+}
+.col-xs-2{
+
+	float: left;
+}
+.span-picture{
+	float: left;
+	width: 100px;
+}
+.span-text{
+	float: right;
+	font-size: 14px;
+	width: calc(100% - 120px);
+}
+.span-picture-2{
+	float: left;
+	width: 80px;
+}
+.span-text-2{
+	float: right;
+	font-size: 12px;
+	width: calc(100% - 95px);
+}
+}
+.span-picture-3{
+	float: left;
+	width: 60px;
+}
+.span-text-3{
+	float: right;
+	font-size: 10px;
+	width:calc(100% - 60px);
+}
+.wrapper{
+	float: left;
+	max-width: 100%;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+	float: left;
+}
+img{
+	float: left;
+}
+.first{
+	float: left;
+	margin:10px;
+	width: 100%;
+}
+.second{
+	float: left;
+	width: 10px;
+
+	border-radius: 50%;
+	background-color: purple;
+}
+h1{
+	font-size: 12px;
+	font-weight: normal;
+	font-family: 'Ubuntu', sans-serif;
+}
+h2{
+	font-size: 10px;
+	font-family: 'Ubuntu 300', sans-serif;
+}
+.part-one{
+	float: left;
+	width: 100%;
+	padding:10px;
+	box-sizing: border-box;
+}
+.box{
+	float: left;
+	padding:5px;
+}
+.text{
+	
+	background-color: #ccffff;
+	position: relative;
+	float:left;
+	margin-left:5px;
+}
+.text:after {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(136, 183, 213, 0);
+	border-right-color: #ccffff;
+	border-width: 10px;
+	margin-top: -10px;
+}
+.chat{
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+}
+.img{
+	margin: 5px;
+	padding:5px;
+	float: left;
+}
+.time{
+	margin-top: 50px;
+	float: left;
+
+}
+
+.part-two{
+	float: left;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.text2{
+	background-color: #f5f5f0;
+	float:left;
+	position: relative;
+	margin-right: 5px;
+}
+.text2:after {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(136, 183, 213, 0);
+	border-left-color: #f5f5f0;
+	border-width: 10px;
+	margin-top: -10px;
+}
+
+.box2{
+	float: right;
+	padding: 5px;
+}
+.img2{
+	float: right;
+	padding: 5px;
+}
+.time2{
+	margin-top: 50px;
+	float: right;
+	
+}
+.man-img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.woman-img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.left{
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+	height: 50px;
+}
+.write{
+	float: left;
+	width: 70%;
+	height: 50px;
+	width: calc(100% - 100px);
+}
+.textarea{
+	width: 100%;
+	height: 30px;
+}
+.button{
+	float: left;
+	width: 50px;
+	height: 36px;
+	margin-left: 6px;
+	background-color: #99ccff;
+}
+.paragraph{
+	font-family: 'Ubuntu 300', sans-serif;
+	color: darkgrey;
+	font-size: 15px;
+	line-height: 14px;
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+.img-1{
+	width: 300px;
+	height: 200px;
+}
+.img-2{
+	width: 160px;
+	height: 120px;
+}
+.img-3{
+	width: 110px;
+	height: 100px;
+}
+.img-div{
+	float: left;
+	width: 300px;
+}
+.text-div{
+	float: right;
+	width: calc(100% - 300px);
+}
+.img-div-2{
+	float: left;
+	width: 200px;
+}
+.text-div-2{
+	float: right;
+	width: calc(100% - 200px);
+}
+.img-div-3{
+	float: left;
+	width: 100px;
+}
+.text-div-3{
+	float: right;
+	width: calc(100% - 120px);
+}
+.dropdown{
+	float: right;
+}
+.first{
+	background-color: #d3c0e5;
+}
+.second{
+	background-color: #ffe7db;
+}
+
+
+
+
+
+<nav class="navbar ">
+				<div class="container">
+					<div class="navbar-header">
+						<a  href="#" class="logo">
+							<img src="images/logo-firma.png " class="img-responsive img">
+						</a>
+					</div>
+					<div class="menu-right">
+						<ul class="nav navbar-nav">
+							<li class="pt-font pt-begin" ><a href="#">Начало</a></li>
+							<li class="pt-font"><a href="#">Цени</a></li>
+							<li class="pt-font"> <a href="#">Безплатно</a></li>
+							<li class="pt-font"><a href="#">Вашите въпроси</a></li>
+							<li class="pt-font"><a href="#">Полезни връзки</a></li>
+							<li class="pt-font" style="border:1px solid #6699cc; border-radius:27px;"><a href="#">Контакти</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>

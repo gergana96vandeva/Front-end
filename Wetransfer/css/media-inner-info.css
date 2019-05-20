@@ -1,0 +1,394 @@
+
+@media (max-width: 1200px) {
+.description {
+    width: 25%;
+}
+
+.main-content {
+    width: 70%;
+}
+
+.weight {
+    font-size: 32px;
+}
+
+.big-num {
+    font-size: 60px;
+}
+
+.comma {
+    font-size: 28px;
+}
+
+.lv {
+    font-size: 22px;
+}
+
+.small-num {
+    font-size: 36px;
+}
+
+sup {
+    top: 2.5em;
+}
+
+.item {
+  font-size: 12px;
+}
+
+.item2 {
+  font-size: 15px;
+}
+
+span i {
+    font-size: 50px;
+   }
+}
+
+@media (max-width: 1100px) {
+  h1 {
+    font-size: 26px;
+  }
+
+  .btn-add-span {
+    width: 40%;
+  }
+
+  .btn-add2 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .btn-add-span {
+    margin-right: 7px;
+    height: 40px;
+  }
+
+  .btn-add2 {
+    background-position: 92%;
+    height: inherit;
+    font-size: 12px;
+  }
+
+  .btn-add2 p {
+    padding-top: 10px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .weight {
+    font-size: 24px;
+}
+
+.big-num {
+    font-size: 42px;
+}
+
+.small-num {
+    font-size: 26px;
+}
+
+.lv {
+    font-size: 16px;
+}
+
+sup {
+    top: 1.5em;
+}
+
+.item2 img, .item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+}
+
+@media (max-width: 860px) {
+
+  h1 {
+    font-size: 18px;
+  }
+
+.btn-add2 {
+  background-size: 6%;
+  background-position: 96%;
+  font-size: 11px;
+}
+
+.description {
+    width: 30%;
+}
+.main-content {
+    width: 65%;
+}
+
+#recipeCarousel {
+  display: none;
+}
+
+#recipeCarousel3 {
+  display: block;
+}
+
+
+#recipeCarousel2 {
+  display: none;
+}
+
+#recipeCarousel4 {
+  display: block;
+}
+
+span i {
+    font-size: 30px;
+}
+}
+
+@media (max-width: 600px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .description {
+    width: 50%;
+}
+
+.main-content {
+    width: 90%;
+    margin-top: 30px;
+}
+
+.item2 {
+    font-size: 11px;
+}
+
+.btn-add2 p {
+    background: -webkit-linear-gradient(#f9e97e, #f9e97e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   padding-top: 13px;
+}
+
+.btn-add2 {
+  font-size: 9px;
+}
+}
+
+
+
+@media (max-width: 560px) {
+  .weight {
+    font-size: 16px;
+}
+
+.big-num {
+    font-size: 26px;
+}
+
+.comma {
+    font-size: 20px;
+}
+
+.small-num {
+    font-size: 16px;
+}
+
+.lv {
+    font-size: 12px;
+}
+
+sup {
+    top: 0.7rem;
+}
+
+.btn-add-span {
+      margin-bottom: 5px;
+}
+
+.btn-add2 {
+    font-size: 8px;
+}
+
+#recipeCarousel4 {
+  display: none;
+}
+
+#recipeCarousel6 {
+    display: flex;
+    justify-content: center;
+}
+
+span i {
+    font-size: 20px;
+}
+
+.container-carousel-two .carousel-control-next {
+    right: 0;
+}
+
+.container-carousel-two .carousel-control-prev {
+    left: 0;
+}
+
+.item2 {
+  flex-direction: column;
+  width: 100%;
+}
+}
+
+@media (max-width: 400px) {
+  .description {
+    width: 70%;
+}
+
+#recipeCarousel3 {
+  display: none;
+}
+
+
+#recipeCarousel5 {
+  display: block;
+}
+
+.weight {
+    font-size: 14px;
+}
+
+.big-num {
+    font-size: 22px;
+}
+
+.small-num {
+    font-size: 14px;
+}
+
+.btn-add2 p {
+  padding-right: 15px;
+  padding-top: 8px;
+}
+
+.btn-add-span {
+  height: 30px;
+}
+}
+
+@media (max-width: 340px) {
+  .main-heading {
+    flex-direction: column;
+  }
+
+  .btn-add-span {
+    width: 100%;
+  }
+
+  .btn-inf {
+    font-size: 12px;
+    background-size: 6%;
+  }
+
+  .btn-inf p {
+    margin-left: 20px;
+  }
+
+  .btn-inf i {
+    margin-right: 0;
+  }
+
+  h1 {
+    font-size: 16px;
+}
+
+.golden {
+  font-size: 9px;
+}
+}
+
+@media (max-width: 240px) {
+  #recipeCarousel6 {
+  display: none;
+}
+
+#recipeCarousel8 {
+  display: block;
+}
+
+  #recipeCarousel5 {
+  display: none;
+}
+
+#recipeCarousel7 {
+  display: block;
+}
+
+
+.btn-inf p {
+    margin-left: 0;
+    width: 80%;
+    padding-top: 4px;
+  }
+
+  .o {
+    font-size: 11px;
+  }
+
+  .op {
+    font-size: 13px;
+  }
+
+  .description {
+    width: 100%;
+  }
+
+  .p {
+    padding: 12px 0 15px 20px;
+}
+
+.plus, .minus {
+  margin-right: 15px;
+}
+
+h1 {
+  font-size: 12px;
+}
+
+.btn-back {
+  width: 100px;
+}
+
+.btn-meals {
+    width: 120px;
+}
+
+.btn-meals {
+    background-position: 0% 24%;
+    font-size: 18px;
+}
+
+.weight {
+    font-size: 11px;
+}
+
+.big-num {
+    font-size: 16px;
+}
+
+.comma {
+    font-size: 14px;
+}
+
+.small-num {
+    font-size: 11px;
+}
+
+.lv {
+    font-size: 8px;
+}
+
+sup {
+    top: 0.2rem;
+}
+}
