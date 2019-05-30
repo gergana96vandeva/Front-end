@@ -1,0 +1,39 @@
+var array = ['johndoe@hotmail.com', 'johndoe@abv.bg', 'johndoe@gmail.com', 'johndoe@mail.bg'];
+var arrayTwo = [];
+function print(arr) {
+    arr.forEach(function(item) { 
+//if (item.endsWith(".com"))
+
+if (item.slice(-4) == ".com") {
+arrayTwo.push(item);
+}
+
+ });
+return arrayTwo.join(", ");
+}
+
+
+var arrayOfpeople = [{ name: 'John', age: 27 },
+				  { name: 'Nick', age: 18 },
+				  { name: 'Abby', age: 16 },
+				  { name: 'Bob', age: 46 }];
+				  
+	/* function(person) { 
+if (person.age >=18) {
+return person; */ алтернативна версия на arrow функцията
+ffunction printOnlyAbove18(arr) {
+   return arr.filter(person => person.age >= 18)
+.map(person => person.name)
+.join(", ");
+ 
+}
+printOnlyAbove18(array)
+
+
+// s for cikul
+var arrNew=[];
+for (var i = 0; i<arr.length; i++) {
+if (arr[i].age >=18 ) {
+arrNew.push(arr[i].name);
+}
+}

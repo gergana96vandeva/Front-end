@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Homework 3</title>
+	<meta charset="utf-8"/>
+	<style>
+	body {
+		color: #333
+	}
+
+	table {
+		border-collapse: collapse
+	}
+
+	th,
+	td {
+		border: 1px solid #ccc
+	}
+	img {
+		width: 200px;
+		height: 250px;
+	}
+	.p1 {
+		text-align: center;
+		font-weight: bold;
+		font-size: 24px;
+		text-decoration: none;
+	}
+
+	.cast{
+		font-size: 12px;
+	}
+</style>
+</head>
+<body>
+	<table>
+		<thead>
+			<tr>
+				<th rowspan="2">Poster</th>
+				<th rowspan="2">Movie Title</th>
+				<th rowspan="2">Description</th>
+				<th rowspan="2">Trailer</th>
+				<th colspan="2">Rating</th>
+				
+				<th rowspan="2">Watched</th>
+			</tr>
+			<tr>
+				<th>Site 1</th>
+				<th>Site 2</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>
+					<a href="https://www.imdb.com/title/tt2306299/" target="_blank"><img src="https://m.media-amazon.com/images/M/MV5BNDYyNzk1NzYwOF5BMl5BanBnXkFtZTgwMTQ0Nzc4MzI@._V1_SY1000_CR0,0,738,1000_AL_.jpg" alt="Vikings"></a>
+					<p class="p1"><a href="https://www.imdb.com/title/tt2306299/" target="_blank">Vikings</a></p>
+				</td>
+				<td>
+					<p class="p1"><a href="https://www.imdb.com/title/tt2306299/" target="_blank">Vikings</a></p>
+				</td>
+				<td width="250">
+					<h1>Vikings</h1>
+					<p class="p2" >Vikings transports us to the brutal  and mysterious world of Ragnar Lothbrok, a Viking warrior and farmer who yearns to explore - and raid - the distant shores across the ocean.</p>
+					<h4>Directors: 
+						<a href="https://www.imdb.com/name/nm0386694/?ref_=tt_ov_wr" target="_blank" class="cast">Michael Hirst</a>
+						<a href="https://www.imdb.com/name/nm0386694/?ref_=tt_ov_wr" target="_blank" class="cast">Rob Park</a>
+					</h4>
+					<h4>Cast: 
+						<a href="https://www.imdb.com/name/nm0935395/?ref_=tt_ov_st_sm" target="_blank" class="cast">Katheryn Winnick</a>
+						<a href="https://www.imdb.com/name/nm1573253/?ref_=tt_ov_st_sm" target="_blank" class="cast">Alexander Ludwig</a>
+					</h4>
+				</td>
+				<td>
+					<iframe width="350" height="315" src="https://www.youtube.com/embed/8dGCvJkzQSE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<p class="trailer">This is a trailer for the 5th season of Vikings</p>
+				</td>
+				<td>
+					<label for="select">Rate:</label>
+					<select id="select">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+						<option>6</option>
+						<option>7</option>
+						<option>8</option>
+						<option>9</option>
+						<option>10</option>
+					</select>
+				</td>
+				<td>
+					<label for="rate">Rate:</label>
+					<input type="number" name="rate" min="-10" max="10" step="1" id="rate" />
+				</td>
+				<td>
+					<input type="radio" name="watch" value="yes" />Yes
+					<input type="radio" name="watch" value="no" />No
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://www.imdb.com/title/tt1442449/" target="_blank"><img src="https://m.media-amazon.com/images/M/MV5BOTA2NDU2MzM5Nl5BMl5BanBnXkFtZTcwMTk3Njg3OA@@._V1_SY1000_CR0,0,667,1000_AL_.jpg" alt="Spartacus"></a>
+					<p class="p1"><a href="https://www.imdb.com/title/tt1442449/" target="_blank">Spartacus</a></p>
+				</td>
+				<td>
+					<p class="p1"><a href="https://www.imdb.com/title/tt1442449/" target="_blank">Spartacus</a></p>
+				</td>
+				<td width="250">
+					<h1>Spartacus</h1>
+					<p class="p2" >The life of Spartacus, the gladiator who lead a rebellion against the Romans. From his time as an ally of the Romans, to his betrayal and becoming a gladiator, to the rebellion he leads and its ultimate outcome. </p>
+					<h4>Directors: 
+						<a href="https://www.imdb.com/name/nm0215299/?ref_=tt_ov_wr" target="_blank" class="cast">Steven S. DeKnight</a>
+						<a href="https://www.imdb.com/name/nm0386694/?ref_=tt_ov_wr" target="_blank" class="cast">Ann Clark</a>
+					</h4>
+					<h4>Cast: 
+						<a href="https://www.imdb.com/name/nm1813878/?ref_=tt_ov_st_sm" target="_blank" class="cast"> Andy Whitfield</a>
+						<a href="https://www.imdb.com/name/nm0071847/?ref_=tt_ov_st_sm" target="_blank" class="cast">Manu Bennett</a>
+					</h4>
+				</td>
+				<td>
+					<iframe width="350" height="315" src="https://www.youtube.com/embed/WSWtCLBrrAk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<p class="trailer">This is a trailer for Spartacus</p>
+				</td>
+				<td>
+					<label for="select1">Rate:</label>
+					<select id="select1">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+						<option>6</option>
+						<option>7</option>
+						<option>8</option>
+						<option>9</option>
+						<option>10</option>
+					</select>
+				</td>
+				<td>
+					<label for="rate1">Rate:</label>
+					<input type="number" name="rate" min="-10" max="10" step="1" id="rate1" />
+				</td>
+				<td>
+					<input type="radio" name="watch1" value="yes" />Yes
+					<input type="radio" name="watch1" value="no" />No
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://www.imdb.com/title/tt0384766/" target="_blank"><img src="https://m.media-amazon.com/images/M/MV5BZTM4NjBkMWEtZDA4My00MzA0LWI0ZWMtNzUwYWVhOThiMTgwXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SY1000_CR0,0,760,1000_AL_.jpg" alt="Rome"></a>
+					<p class="p1"><a href="https://www.imdb.com/title/tt0384766/" target="_blank">Rome</a></p>
+				</td>
+				<td>
+					<p class="p1"><a href="https://www.imdb.com/title/tt0384766/" target="_blank">Rome</a></p>
+				</td>
+				<td width="250">
+					<h1>Rome</h1>
+					<p class="p2" >A down-to-earth account of the lives of both illustrious and ordinary Romans set in the last days of the Roman Republic.</p>
+					<h4>Directors: 
+						<a href="https://www.imdb.com/name/nm0375285/?ref_=tt_ov_wr" target="_blank" class="cast">Bruno Heller</a>
+						<a href="https://www.imdb.com/name/nm0386694/?ref_=tt_ov_wr" target="_blank" class="cast">John Milius</a>
+					</h4>
+					<h4>Cast: 
+						<a href="https://www.imdb.com/name/nm0571727/?ref_=tt_ov_st_sm" target="_blank" class="cast">Kevin McKidd</a>
+						<a href="https://www.imdb.com/name/nm0829032/?ref_=tt_ov_st_sm" target="_blank" class="cast">Ray Stevenson</a>
+					</h4>
+				</td>
+				<td>
+					<iframe width="350" height="315" src="https://www.youtube.com/embed/2s1RoX1OeC0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<p class="trailer">This is a trailer for the first season of Rome</p>
+				</td>
+				<td>
+					<label for="select2">Rate:</label>
+					<select id="select2">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+						<option>6</option>
+						<option>7</option>
+						<option>8</option>
+						<option>9</option>
+						<option>10</option>
+					</select>
+				</td>
+				<td>
+					<label for="rate2">Rate:</label>
+					<input type="number" name="rate" min="-10" max="10" step="1" id="rate2" />
+				</td>
+				<td>
+					<input type="radio" name="watch2" value="yes" />Yes
+					<input type="radio" name="watch2" value="no" />No
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

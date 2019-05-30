@@ -1,0 +1,60 @@
+﻿Задача 1:
+Напишете функция, която приема един входен параметър, проверява дали стойността му е от тип number и връща true или false.
+
+function checkIfNumber(a) {
+    if (typeof(a)==='number') {
+        return true; 
+    }
+    else {
+        return false;
+    }
+}
+
+2ри вариянт 
+function check(x) {
+    return (typeof(x) == "number") ?  true :  false;
+}
+
+Напишете функция, която приема два произволни string-a като входни параметри и връща като резултат разликата в броя символи на двата string-а. Резултатът никога не трябва да е отрицателно число.
+
+function diff(a,b) {
+  
+  var result;
+
+    var x=a.length;
+ 
+   var y=b.length;
+ 
+   if (x > y) {
+  
+      result=x-y;
+   
+ } else {
+    
+    result=y-x;
+  
+  }
+  
+  return result;
+
+}
+
+
+diff("football", "ball") --> 
+4
+
+diff("ball","football") -->
+ 4
+diff('geri','mitko') --> 
+1
+
+Бонус задача:
+function area(a,b,c) {
+  
+  var result;
+   
+ result = (a*b) + 0.5*a*(c-b);
+  
+  return result;
+
+}

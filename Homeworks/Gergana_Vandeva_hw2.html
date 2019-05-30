@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Homework 2</title>
+	<meta charset="utf-8"/>
+	<style>
+	table, th, td {
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+	th, td {
+		padding: 5px;
+		text-align: left;    
+	}
+	th {
+		background-color: gray;
+	}
+	.y{
+		background-color: #dff975;
+
+	}
+	.g{
+		background-color: #8ce293;
+	}
+	.r{
+		background-color: #ed5c5c;
+	}
+	.b{
+		background-color: #63c0e8;
+	}
+	.t{
+		text-align: center;
+		font-weight: bold;
+	}
+</style>
+</head>
+<body>
+	<form>
+		<h2>Pet competition form</h2>
+		<label for="name">Name of animal:</label>
+		<input type="text" name="name" id="name" required>
+		<br /> <br />
+		<label>Type of animal:</label>
+		<input type="radio" name="animal" value="dog">Dog
+		<input type="radio" name="animal" value="cat">Cat
+		<br /> <br />
+		<label>Age of animal:</label>
+		<select required>
+			<option value="5">younger than 5 years</option>
+			<option value="6">older than 5 years</option>
+		</select>
+		<br /> <br />
+		<textarea placeholder="Enter a few words describing your pet" cols="40" rows="7"></textarea>
+		<br /> <br />
+		<input type="checkbox" name="agree" required>I agree with the terms of the competition.
+		<br /> <br />
+		<input type="submit" value="Agree">
+		<input type="reset" value="Clear">
+	</form>
+<br /> <br />
+	<table>
+		<thead>
+			<tr>
+				<th>Name / Description</th>
+				<th>Qty.</th>
+				<th>@</th>
+				<th>Cost</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Paperclips</td>
+				<td>1000</td>
+				<td>0.01</td>
+				<td>10.00</td>
+			</tr>
+			<tr>
+				<td>Staples (box)</td>
+				<td>100</td>
+				<td>1.00</td>
+				<td>100.00</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="y t">Subtotal</td>
+				<td class="y">110.00</td>
+			</tr>
+			<tr>
+				<td colspan="2" class="t g">Tax</td>
+				<td class="r">8%</td>
+				<td class="g">8.80</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="t b">Grand Total</td>
+				<td class="b">$ 118.80</td>
+			</tr>
+		</tbody>
+	</table>
+
+</body>
+</html>

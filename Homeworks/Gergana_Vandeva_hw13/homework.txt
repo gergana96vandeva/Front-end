@@ -1,0 +1,43 @@
+Задача 1:
+	Напишете 3 функции, които приемат като аргумент списък с числа и съответно:
+	• Връща като резултат сумата от тези числа
+	• Връща като резултат сумата само от четните числа
+	• Връща като резултат сумата само от нечетните числа
+	
+	var array= [10,20,30,40];
+	var a = [1,2,3,4,5,6];
+	var b = [2,1,16,3,9];
+	
+	function sumAll(arr) {
+var sum=0;
+    for (var i=0; i<arr.length; i++) {
+        sum += arr[i];
+    }
+    return sum;
+}
+
+sumAll(array); --> 100
+sumAll(a); --> 21
+
+
+function sumEven(arr) {
+var sum=0;
+    for (var i=0; i<arr.length; i++) {
+    if (arr[i] % 2 == 0)
+        sum += arr[i];
+    }
+    return sum;
+}
+
+sumEven(b); --> 18
+
+function sumOdd(arr) {
+var sum=0;
+    for (var i=0; i<arr.length; i++) {
+if (arr[i] % 2 == 1)
+        sum += arr[i];
+    }
+    return sum;
+}
+
+sumOdd(b) --> 13
